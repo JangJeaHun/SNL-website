@@ -1,23 +1,81 @@
 body{
     color: #191919;
-    font-family: 'Nanum Gothic', sans-serif;   
+    font-family: 'Nanum Gothic', sans-serif;
+    
 }
 
 a, a:link{
     text-decoration: none;
     color: inherit;
+
 }
 
-
-
-
-
+/* .picture img{
+    width: 800px;
+    height: 400px;
+} */
 .logo{
     width: 154px;
     height: 152px;
     margin: 0 auto;
 }
-.footer-logo{
+.footer-logo img{
     width: 98px;
     margin: 0 auto;
+}
+#main{
+    
+    margin: 0 auto;
+}
+td, th{
+    padding: 20px;
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+}
+.lowtable td{
+    text-align: left;
+}
+
+table{
+    width: 600px;
+    margin: 0 auto;
+}
+
+.menu ul li {
+    padding: 0 15px;
+    display: inline-block;
+    font-size: 16px;
+}
+.menu ul{
+    padding: 2rem;
+    text-align: center;
+    background: #01ccff;
+    
+}
+caption{
+    margin: 2rem 0;
+}
+
+#footer{
+    margin:3rem atuo;
+    text-align: center;
+}
+
+.extra-menu ul li{
+    padding: 2rem;
+    display: inline-block;
+    
+}
+.footer-logo{
+    width: 98px;
+    margin: 0 auto 3rem;
+}
+.black-bg{
+    padding: 10% 0;
+    background: #999999;
+}
+caption{
+    font-size: 18px;
+    font-weight: bold;
 }
