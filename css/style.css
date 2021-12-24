@@ -153,6 +153,19 @@ caption{
     margin-right: 15px;
 }
 
+.bestpicture > h2   {
+    font-size: 2rem;
+    margin: 20px auto;
+    text-align: center;
+}
+.firstline ,.secondline{
+    width: 100%;
+    text-align: center;
+}
+.firstline figure, .secondline figure{
+    display: inline-block;
+    
+}
 
 
 /* 여기까지가 메인 */
