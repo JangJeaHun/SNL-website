@@ -27,6 +27,11 @@
 </head>
 
 <body>
+    <div id="modal">
+        <button id="close">&times; </button>
+        <iframe width="1180" height="664" src="https://www.youtube.com/embed/6FLFe1YzKlU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
     <h1>
         <div class="blind"> snl</div>
     </h1>
@@ -52,7 +57,7 @@
 
 
     <div id="main">
-        <div class="bestpicture">
+        <!-- <div class="bestpicture">
             <h2><span>베스트 사진</span></h2>
                 <div class="firstline">
                     <figure>
@@ -94,8 +99,29 @@
                         </figcaption>
                     </figure>
                 </div>
-        </div>
-
+        </div> -->
+        <h2>
+            금주 베스트
+        </h2>
+        <table class="best">
+            
+            <tr>
+                <td><img src="https://picsum.photos/id/100/300/300" alt="image"></td>
+                <td><img src="https://picsum.photos/id/50/300/300" alt="image"></td>
+                <td><img src="https://picsum.photos/id/0/300/300" alt="image"></td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="overlay">
+                        <img src="images/play-btn.png" alt="modal">
+                    </div>
+                    <img src="https://picsum.photos/id/102/300/300" alt="image">
+                </td>
+                
+                <td><img src="https://picsum.photos/id/52/300/300" alt="image"></td>
+                <td><img src="https://picsum.photos/id/2/300/300" alt="image"></td>
+            </tr>
+        </table>
 
 
     </div> <!-- #main의 끝 -->
@@ -120,6 +146,24 @@
         </div>
     </div> <!-- footer의 끝 -->
 
+    <script>
+        var open = document.querySelector(".overlay");
+        var modal = document.querySelector("#modal");
+        // var body = document.querySelector("#body");
+        var close = document.querySelector("#close");
+        open.addEventListener("click", function(){
+            modal.style.display = "block";
+            
+        })
+        close.addEventListener("click",function()
+        {
+            modal.style.display = "none";
+            body.style.overflow = "auto"
+        }
+        )
+
+
+    </script>
 </body>
 
 </html>
