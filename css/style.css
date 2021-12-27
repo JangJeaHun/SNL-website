@@ -238,18 +238,33 @@ caption{
 .contents{
     max-width: 1200px;
     margin: 0 auto;
+    text-align: center;
+    
+    
+    
 }
 .board-icons{
 display: flex;
 }
 
 .board{
+
+    display: block;
     width: 25%;
+    border: #191919 solid 1px;
 }
+
 .icons{
     width: 75%;
-    background: lightcoral;
+
 }
+.icons ul
+{
+    display: flex;
+    justify-content: space-around;      /* align-items   이랑 상반되게 같이 쓰임 */
+    margin: 100px auto;   
+}
+
 
 .banner img{
     height: 150px;
