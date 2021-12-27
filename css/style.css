@@ -234,6 +234,33 @@ caption{
     border-spacing: 10px 30px;
 } */
 
+/* index 시작 main > .contents style */
+.contents{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.board-icons{
+display: flex;
+}
+
+.board{
+    width: 25%;
+}
+.icons{
+    width: 75%;
+    background: lightcoral;
+}
+
+.banner img{
+    height: 150px;
+    width: auto;
+}
+
+
+
+
+/* index 끝 */
+
 /* 여기까지가 메인 */
 
 #footer{     /* foot의 style */
