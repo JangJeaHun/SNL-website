@@ -244,14 +244,34 @@ caption{
     
 }
 .board-icons{
-display: flex;
+    display: flex;
+    margin: 30px auto;
 }
 
 .board{
-
-    display: block;
     width: 25%;
     border: #191919 solid 1px;
+}
+
+.board > h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 50px auto;
+}
+.board p{
+    font-size: 20px;
+    margin: 20px auto;
+    color: #191919;
+}
+
+.board > button{
+    width: 32px;
+    height: 32px;
+    margin: 10px auto;
+    color: white;
+    background: black;
+
 }
 
 .icons{
@@ -261,8 +281,9 @@ display: flex;
 .icons ul
 {
     display: flex;
+    height: 360px;
     justify-content: space-around;      /* align-items   이랑 상반되게 같이 쓰임 */
-    margin: 100px auto;   
+    align-items: center;
 }
 
 
